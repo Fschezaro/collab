@@ -21,7 +21,7 @@
         <ul class="hidden md:flex space-x-8 text-white text-lg font-medium">
           <li><RouterLink to="/" class="hover:text-pink-500 transition">Início</RouterLink></li>
           <li><RouterLink to="/mascot" class="hover:text-pink-500 transition">Mascote</RouterLink></li>
-          <li><RouterLink to="/about" class="hover:text-pink-500 transition">Sobre</RouterLink></li>
+          <!-- <li><RouterLink to="/about" class="hover:text-pink-500 transition">Sobre</RouterLink></li> -->
           <li><RouterLink to="/merch" class="hover:text-pink-500 transition">Merch</RouterLink></li>
           <li><RouterLink to="/team" class="hover:text-pink-500 transition">Portifólios</RouterLink></li>
         </ul>
@@ -34,7 +34,7 @@
         <ul class="space-y-2">
           <li><RouterLink to="/" class="block hover:text-pink-500 transition">Início</RouterLink></li>
           <li><RouterLink to="/mascot" class="hover:text-pink-500 transition">Mascote</RouterLink></li>
-          <li><RouterLink to="/about" class="hover:text-pink-500 transition">Sobre</RouterLink></li>
+          <!-- <li><RouterLink to="/about" class="hover:text-pink-500 transition">Sobre</RouterLink></li> -->
           <li><RouterLink to="/merch" class="hover:text-pink-500 transition">Merch</RouterLink></li>
           <li><RouterLink to="/team" class="hover:text-pink-500 transition">Portifólios</RouterLink></li>
         </ul>

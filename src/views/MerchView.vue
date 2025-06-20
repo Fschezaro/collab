@@ -10,7 +10,6 @@
           <h3 class="text-2xl font-semibold mb-2">{{ produto.nome }}</h3>
           <p class="text-white/80 mb-4">{{ produto.descricao }}</p>
           <span class="block text-lg font-bold">R$ {{ produto.preco.toFixed(2) }}</span>
-          <button class="mt-4 bg-white text-black py-2 px-4 rounded-xl hover:bg-pink-300 transition">Comprar</button>
         </div>
       </div>
     </div>
@@ -22,40 +21,28 @@ import NavbarComponent from '@/components/NavbarComponent.vue';
 
 const produtos = [
   {
-    nome: 'Camiseta Collab',
-    descricao: 'Estampa exclusiva com tecido premium.',
-    preco: 89.90,
-    imagem: '/produtos/camiseta1.png'
-  },
-  {
-    nome: 'Moletom Edição Limitada',
-    descricao: 'Confortável e estiloso para dias frios.',
-    preco: 159.90,
-    imagem: '/produtos/moletom1.png'
-  },
-  {
-    nome: 'Boné Logo Oficial',
-    descricao: 'Ideal para completar o look urbano.',
-    preco: 49.90,
-    imagem: '/produtos/bone1.png'
-  },
-  {
     nome: 'Ecobag Collab',
     descricao: 'Sustentável e cheia de atitude.',
+    preco: 89.90,
+    imagem: './merch/merch1.jpg'
+  },
+  {
+    nome: 'Chaveiro Collab',
+    descricao: '',
+    preco: 159.90,
+    imagem: './merch/merch3.jpg'
+  },
+  {
+    nome: 'Adesivos collab',
+    descricao: 'Ideal para completar o look urbano.',
+    preco: 49.90,
+    imagem: './merch/merch4.jpg'
+  },
+  {
+    nome: 'Caneca COllab',
+    descricao: '',
     preco: 29.90,
-    imagem: '/produtos/ecobag1.png'
-  },
-  {
-    nome: 'Adesivo Vintage',
-    descricao: 'Para personalizar tudo com estilo.',
-    preco: 9.90,
-    imagem: '/produtos/adesivo1.png'
-  },
-  {
-    nome: 'Caneca Logo Collab',
-    descricao: 'Design minimalista e resistente.',
-    preco: 39.90,
-    imagem: '/produtos/caneca1.png'
+    imagem: './merch/merch2.jpg'
   }
 ]
 </script>
